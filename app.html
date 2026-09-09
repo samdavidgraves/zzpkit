@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zzpkit — Productkit</title>
+  <meta name="description" content="Zzpkit productkit: prompts voor offertes, klantmails, LinkedIn en admin. Copy-paste in ChatGPT." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="app-body is-gated">
+  <header class="app-top">
+    <a class="brand" href="index.html">Zzp<span>kit</span></a>
+    <div class="app-top-meta">
+      <span>ZZP AI Starterkit</span>
+      <a class="btn btn-ghost btn-sm" href="index.html">← Marketing</a>
+    </div>
+  </header>
+
+  <div class="app-mobile-tabs" id="app-mobile-tabs" role="tablist" aria-label="Secties"></div>
+
+  <div class="app-shell">
+    <nav class="app-nav" id="app-nav" aria-label="Kit-navigatie"></nav>
+    <main class="app-main" id="app-main" tabindex="-1">
+      <!-- Sections rendered by app.js -->
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="access.js"></script>
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
